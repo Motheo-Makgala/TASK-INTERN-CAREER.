@@ -1,0 +1,19 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none; 
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+
+<li class="nav_profile">
+            <div class="profile_image">
+              <img src="./images/Me.jpg" alt="Me.jpg">
+            </div>
+            <ul>
+              <li><a href="dashboard.html">Dash board</a></li>
+              <li><a href="logout.html">Log out</a></li>
+            </ul>
+          </li>
